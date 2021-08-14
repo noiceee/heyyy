@@ -1,0 +1,108 @@
+html{
+    height: 100%;
+}
+body{
+    background-color: #E4F9F5;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Merriweather', serif; */
+    height:100%;
+}
+hr{
+    border-style: dotted;
+    border-width: 8px 0px 0px 0px;
+    width: 50px;
+    margin: 30px auto 30px;
+    color: #356397;
+    clear: left;
+}
+.top-container{
+    padding-top: 0px;
+    position: relative;
+    height: 100%;
+    background-color: rgb(173, 225, 255);
+}
+.heading{
+    margin: 0px auto 0px;
+    color: #71C9CE;
+    padding-top: 250px;
+    font-family: 'Sacramento', cursive;
+    font-size: 100px;
+}
+.designation{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: larger;
+    font-size: 18px;
+    margin: 0px;
+    margin-top: 20px;
+}
+.cloud{
+    width: 160px;
+}
+.top-cloud{
+    top: 10%;
+    right: 20%;
+    position: absolute;
+}
+.bottom-cloud{
+    top: 40%;
+    left: 20%;
+    position: absolute;
+}
+.mountain{
+    width: 600px;
+    vertical-align: bottom;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.middle-container{
+    width: 50%;
+    margin: 0px auto;
+}
+.profile{
+    text-align: left;
+    line-height: 2;
+    overflow: auto;
+}
+.skill{
+    text-align: left;
+    line-height: 2;
+    overflow: auto;
+}
+.skill-photo{
+    float:right;
+    width: 200px;
+    margin-left: 39px;
+}
+.profile-photu{
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+}
+.to-circle{
+    border-radius: 100%;
+}
+.bottom-container{
+    text-align: left;
+    color: #E4F9F5;
+    padding: 40px 60px 40px;
+    background-color: rgb(100, 100, 100);
+    position: relative;
+}
+.copyright{
+    position: absolute;
+    right: 60px;
+    margin-top: auto;
+    margin-bottom: auto;
+    bottom: 42%;
+}
+.social-icons{
+    width: 48px;
+    height: 48px;
+    margin-right: 5px;
+}
