@@ -101,6 +101,20 @@ hr{
     margin-bottom: auto;
     bottom: 42%;
 }
+.btn{
+    display:block;
+    padding: 10px;
+    margin: 20px 0px;
+    background-color:#E4F9F5;
+    width: fit-content;
+    border-radius: 6px;
+    color:#356397;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #356397;
+    color: #E4F9F5;
+}
 .social-icons{
     width: 48px;
     height: 48px;
