@@ -60,6 +60,19 @@ hr{
     margin-left: auto;
     margin-right: auto;
 }
+@media screen and (max-width: 400px) {
+    .mountain{
+        width: 100%;
+    }
+    .bottom-cloud{
+        left: -30%;
+        top: 70%;
+    }
+    .top-cloud{
+        top: 20%;
+        right: -15%;
+    }
+}
 .middle-container{
     width: 50%;
     margin: 0px auto;
@@ -115,8 +128,28 @@ hr{
     background-color: #356397;
     color: #E4F9F5;
 }
-.social-icons{
-    width: 48px;
-    height: 48px;
-    margin-right: 5px;
+@media screen and (max-width: 400px) {
+    .bottom-container{
+        text-align: center;
+    }
+    .btn{
+        margin: 20px auto;
+    }
+    .copyright{
+        position: static;
+    }
+    .smoll{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .profile{
+        text-align: center;
+    }
+    .skill{
+        text-align: center;
+    }
+    .margin-zero{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
 }
