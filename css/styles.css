@@ -81,6 +81,9 @@ hr{
         top: 20%;
         right: -15%;
     }
+    .top-container{
+        overflow: hidden;
+    }
 }
 .middle-container{
     width: 50%;
