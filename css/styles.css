@@ -8,6 +8,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     /* font-family: 'Merriweather', serif; */
     height:100%;
+    overflow-x: hidden;
 }
 hr{
     border-style: dotted;
@@ -28,7 +29,8 @@ hr{
     color: #71C9CE;
     padding-top: 250px;
     font-family: 'Sacramento', cursive;
-    font-size: 100px;
+    font-size: 100px;    z-index: 1;
+    position: relative;
 }
 .designation{
     font-family: 'Montserrat Alternates', sans-serif;
@@ -36,8 +38,10 @@ hr{
     font-size: 18px;
     margin: 0px;
     margin-top: 20px;
+    z-index: 1;
+    position: relative;
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 600px){
     .heading{
         padding-top: 200px;
         font-size: 90px;
@@ -69,7 +73,7 @@ hr{
     margin-left: auto;
     margin-right: auto;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     .mountain{
         width: 100%;
     }
@@ -79,7 +83,7 @@ hr{
     }
     .top-cloud{
         top: 20%;
-        right: -15%;
+        right: -30%;
     }
     .top-container{
         overflow: hidden;
@@ -140,7 +144,7 @@ hr{
     background-color: #356397;
     color: #E4F9F5;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     .bottom-container{
         text-align: center;
     }
